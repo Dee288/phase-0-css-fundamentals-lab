@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+nav{
+ align-content: center;
+  display: flex;
+  justify-content:  center;
+  flex-direction: row;
+  row-gap: 10px;
+}
+.beauty{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.note{
+  font-size: small;
+  text-align: center;
+}
+#words{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+#details{
+  background: red;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
